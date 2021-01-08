@@ -108,7 +108,7 @@ kubectl create secret generic cloudsql-db-credentials \
 
 ### B. - Déploiement de Wordpress
 
-Déploier le fichier manifeste :
+Déploier le [fichier](https://github.com/AntoninDemaneche/Cluster_GoogleCloud/blob/main/wordpress_cloudsql.yaml) manifeste :
 `kubectl create -f wordpress_cloudsql.yaml`
 
 Voir si le déploiement a bien été fait : 
